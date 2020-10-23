@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    height: 100vh;
+    width: 100vw;
+    background: url(img/snow_cover_darker.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    padding: 10px 15px;
+}
+
+.nav-item {
+    font-size: 1em;
+    font-weight: 300;
+    /* text-transform: uppercase; */
+}
+
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    background: #ffffff;
+    color: #2770c4;
+    border-radius: 3px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 5px 15px;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.info {
+    width: auto;
+    height: 30%;
+    margin-top: 20vh;
+    margin-left: 5vw;
+}
+
+/* .info img {
+    border-radius: 50%;
+    margin: 5%;
+    border: solid 3px #dfdfdf;
+} */
+
+.info h1 {
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: lighter;
+    text-shadow: 1px 3px 5px #000000;
+}
+
+.info h1 span {
+    font-weight: bold;
+    color: #fff;
+    /* background-color: #3538e0; */
+}
+
+.info h3 small {
+    color: #ffffff;
+    text-shadow: 1px 3px 5px #000000;
+}
+
+
+/*
+SERVICE SECTION START
+*/
+
+.services_section {
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff(19, 18, 18);
+}
+
+hr {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.services_section h2 {
+    color: #151515;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.services_section h3 {
+    color: #151515;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.services_section p {
+    color: #151515;
+    font-size: 15px;
+}
+
+.services_section_card {
+    padding: 35px 8%;
+    margin: 25px 0;
+    border-radius: 5px;
+    box-shadow: 0px 1px 27px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* SERVICE SECTION END */
+
+
+/*
+
+WORK SECTION START
+
+*/
+
+.work_section {
+    height: auto;
+    width: 100vw;
+    background-color:#dfdfdf;
+}
